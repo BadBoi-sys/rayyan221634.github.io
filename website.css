@@ -1,0 +1,564 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#p1 {
+    display: inline-block;
+    color: black;
+    margin-left: 50px;
+    font-size: 23px;
+    margin-left: 100px;
+    margin-top: 18px;
+}
+
+#p2 {
+    display: inline-block;
+    color: aqua;
+    font-size: 23px;
+    margin-top: 18px;
+
+}
+
+#home {
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 5px;
+
+}
+
+#home:hover {
+    color: blue;
+    cursor: default;
+    cursor: pointer;
+
+}
+
+#about {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#about:hover {
+    color: blue;
+    cursor: default;
+    cursor: pointer;
+
+}
+
+#services {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#services:hover {
+    color: blue;
+    cursor: default;
+    cursor: pointer;
+
+}
+
+#featured {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#featured:hover {
+    color: blue;
+    cursor: default;
+    cursor: pointer;
+
+}
+
+#gallery {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#gallery:hover {
+    color: blue;
+    cursor: default;
+    cursor: pointer;
+}
+
+#icon1 {
+    margin-left: 170px;
+    font-size: 20px;
+
+}
+
+#icon1:hover {
+    color: rgb(255, 0, 0);
+}
+
+#icon2 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#icon2:hover {
+    color: red;
+}
+
+#icon3 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#icon3:hover {
+    color: red;
+}
+
+.mainimg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(126, 255, 212), rgba(0, 0, 0, 0.7)), url(images/latest/main.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+
+    padding-top: 270px;
+    font-size: 60px;
+    color: white;
+    margin-left: 480px;
+
+}
+
+.paragraph {
+    width: 700px;
+    height: 200px;
+    font-size: 25px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.button {
+    width: 200px;
+    height: 47px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 620px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 255, 170);
+    border-style: none;
+
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.secondmain {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.third {
+    width: 100%;
+    height: 44vh;
+    background-color: rgb(191, 191, 191);
+}
+
+#about1 {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 630px;
+    font-style: inherit;
+    margin-top: 50px;
+}
+
+#US2 {
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(68, 255, 236);
+    font-style: inherit;
+
+    margin-top: 0px;
+}
+
+.img2 {
+    width: 300px;
+    height: 270px;
+    background-image: url(images/latest/tour-2.jpeg);
+    margin-left: 390px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.heading10 {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40px;
+
+
+}
+
+#our {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.878);
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+
+#services2 {
+    font-size: 50px;
+    color: rgba(0, 255, 238, 0.878);
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.one {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 155px;
+    margin-top: 50px;
+
+}
+
+#wallet {
+    background-color: rgb(0, 255, 183);
+    font-size: 40px;
+    display: inline-block;
+
+}
+
+.headingone {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.paraone {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 5px;
+
+}
+
+.two {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.three {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.thirdmain {
+    width: 100%;
+    height: 120vh;
+}
+
+#featured12 {
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+#tours12 {
+    font-size: 35px;
+    display: inline-block;
+    color: aquamarine;
+    margin-top: 50px;
+}
+
+.div1 {
+    width: 280px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 265px;
+    margin-top: 50px;
+    background-color: rgb(237, 237, 237);
+}
+
+.div2 {
+    width: 280px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(237, 237, 237);
+}
+
+.div3 {
+    width: 280px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(237, 237, 237);
+}
+
+#combined {
+    width: 280px;
+    height: 160px;
+}
+
+#hong {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+#paraten {
+    margin-top: 10px;
+    margin-left: 17px;
+    display: inline-block;
+}
+
+#china1 {
+    color: rgb(14, 243, 170);
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+#china1:hover {
+    color: black;
+    cursor: default;
+
+}
+
+#china2 {
+    display: inline-block;
+    color: rgb(14, 243, 170);
+    margin-left: 100px;
+    margin-top: -55px;
+
+}
+
+#china2:hover {
+    color: black;
+    cursor: default;
+}
+
+.div4 {
+    width: 280px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(237, 237, 237);
+    margin-left: 265px;
+}
+
+
+
+#buttontwenty {
+    width: 160px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 70px;
+    background-color: rgb(0, 255, 170);
+    color: white;
+    border-style: none;
+}
+
+#buttontwenty:hover {
+    background-color: black;
+    color: white;
+}
+
+.fourthmain {
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(0, 255, 170);
+}
+
+#barpara {
+    color: white;
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+#email {
+    display: inline-block;
+}
+
+#barparaa {
+    margin-left: 150px;
+    color: white;
+
+
+}
+
+#email {
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+    height: 25px;
+
+}
+
+#front {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    color: black;
+    margin-left: 2px;
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    border-style: none;
+
+}
+
+#front:hover {
+    background-color: black;
+    color: white;
+}
+
+.fifthmain {
+    width: 100%;
+    height: 22vh;
+
+}
+
+.oneo {
+    display: inline-block;
+    width: 365px;
+    margin-bottom: 2px;
+    margin-bottom: 8px;
+
+}
+
+.twoo {
+    display: inline-block;
+    width: 365px;
+    margin-bottom: 8px;
+
+
+}
+
+.threeo {
+    display: inline-block;
+    width: 365px;
+    margin-bottom: 8px;
+
+
+}
+
+.fouro {
+    display: inline-block;
+    width: 365px;
+    margin-bottom: 8px;
+
+
+}
+
+.fiveo {
+    display: inline-block;
+    width: 362px;
+    margin-bottom: 4px;
+}
+
+.tri {
+    display: inline-block;
+}
+
+.lastdiv {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(0, 37, 86);
+}
+
+.paragrapho {
+    display: inline-block;
+    color: white;
+    margin-top: 120px;
+    margin-left: 50px;
+
+}
+
+.paragrapho:hover {
+    color: black;
+    cursor: default;
+}
+
+.firstparagraph {
+    margin-left: 480px;
+}
+
+#icono {
+
+    font-size: 27px;
+    color: aquamarine;
+    margin-left: 620px;
+
+}
+
+#icono1 {
+    font-size: 27px;
+    color: aquamarine;
+    margin-left: 50px;
+
+
+
+}
+
+#icono2 {
+    font-size: 27px;
+    color: aquamarine;
+    margin: 50px;
+
+}
+
+.finalpara {
+    margin-left: 540px;
+    font-size: 20px;
+    color: white;
+}
+
+.finalpara:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+#icono:hover {
+    color: red;
+
+}
+
+#icono1:hover {
+    color: red;
+
+}
+
+#icono2:hover {
+    color: red;
+
+}
+
+.rayyan {
+    width: 100%;
+    height: 48vh;
+    background-color: white;
+}
